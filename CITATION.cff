@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and public verification repository where appropriate."
+title: "Operation-Marked Eccentricity-Weighted Route Spectra of Feedforward Architecture Graphs"
+type: software
+authors:
+  - family-names: Gusai
+    given-names: Sunilgar L.
+    orcid: "https://orcid.org/0009-0004-0739-4812"
+  - family-names: Jadeja
+    given-names: Manoharsinh R.
+    orcid: "https://orcid.org/0000-0003-1833-4730"
+repository-code: "https://github.com/SunilgarGusai/operation-marked-route-spectra"
+abstract: "Exact mathematical verification and exploratory neural architecture benchmark summaries. Manuscript submission pending."
