@@ -1,0 +1,7 @@
+# Upstream attribution, source ownership, and release licensing
+
+- GRAF features are derived/adapted from methods published by Kadlecová et al., *Surprisingly Strong Performance Prediction with Neural Graph Features*, ICML 2024. Upstream repository: https://github.com/gabikadlecova/GRAF (reported MIT license). The local `graf_nb101.py` is a source-aligned adaptation, not an official GRAF implementation. Preserve required MIT notices if and where upstream code is copied; The applicable upstream MIT notice is preserved at `docs/GRAF_UPSTREAM_MIT_LICENSE.txt`; the adapted code is labelled source-aligned rather than an official GRAF implementation.
+- NASGraph, DAG-S, and their full algorithms are **not** reproduced by the compact graph descriptors in this repository.
+- The NAS-Bench-101/201 benchmark sources are third-party materials; this release does not redistribute their original raw data files.
+- The generic linear-algebra and graph-replication components are standard methods, not claimed original.
+- **Project code license pending:** choose a license only after both authors' copyright approval and verification of upstream obligations. This public research companion does not include an original-code `LICENSE` because the authors have not yet selected a reuse license. Public visibility is not an open-source license. The relevant reference is https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository .

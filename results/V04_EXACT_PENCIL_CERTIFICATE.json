@@ -1,0 +1,78 @@
+{
+  "protocol": "Exact SymPy polynomial determinant and trace verification; no ML/holdout access",
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "networkx": "3.6.1",
+  "comparisons": {
+    "I": {
+      "H": {
+        "joint_cospectral_as_polynomial": true,
+        "difference": "0",
+        "coefficient_count_A": 59,
+        "coefficient_count_B": 59,
+        "simultaneous_permutation_equivalence": false,
+        "permutation_map": null
+      },
+      "W": {
+        "joint_cospectral_as_polynomial": true,
+        "difference": "0",
+        "coefficient_count_A": 12,
+        "coefficient_count_B": 12,
+        "simultaneous_permutation_equivalence": true,
+        "permutation_map": {
+          "2": 0,
+          "0": 2,
+          "3": 4,
+          "1": 1,
+          "4": 3,
+          "6": 5,
+          "5": 6
+        }
+      },
+      "weighted": {
+        "mixed_trace_gap": "30*z*(z + 1)",
+        "reduced_trace_gap": "30*z*(t + 1)*(t*z + 2*t + z)",
+        "cloned_trace_gap": "30*s**3*(t + 1)*(s*t + s + 2*t)",
+        "positivity_domain": "s positive integer, t real nonnegative; every summand positive or nonnegative"
+      },
+      "joint_route_intertwiner_at_z1": {
+        "matrix_size": "98 by 49",
+        "exact_rational_rank": 49,
+        "conclusion": "only zero X satisfies H_alpha,A(1) X = X H_alpha,B(1) and H_beta,A(1) X = X H_beta,B(1)"
+      }
+    },
+    "II": {
+      "H": {
+        "joint_cospectral_as_polynomial": false,
+        "difference": "-2*t**2*z*(-t + x)*(t + x)*(t**2 + 2*t*x*z + t*x + t - x)",
+        "coefficient_count_A": 40,
+        "coefficient_count_B": 41,
+        "simultaneous_permutation_equivalence": false,
+        "permutation_map": null
+      },
+      "W": {
+        "joint_cospectral_as_polynomial": true,
+        "difference": "0",
+        "coefficient_count_A": 8,
+        "coefficient_count_B": 8,
+        "simultaneous_permutation_equivalence": true,
+        "permutation_map": {
+          "3": 0,
+          "0": 2,
+          "2": 1,
+          "5": 3,
+          "6": 4,
+          "1": 5,
+          "4": 6
+        }
+      },
+      "weighted": {
+        "mixed_trace_gap": "-22*z**2",
+        "reduced_trace_gap": "-22*z**2*(t + 1)**2",
+        "cloned_trace_gap": "-22*s**4*(t + 1)**2"
+      }
+    }
+  },
+  "status": "PASS",
+  "source_v03_sha256": "7626469cc6ede2bd4b8994b1737a3fd08a79c5c4768a5155a8b226963e07ace7"
+}

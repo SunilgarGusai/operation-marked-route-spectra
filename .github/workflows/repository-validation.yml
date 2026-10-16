@@ -1,0 +1,20 @@
+name: Repository validation
+on:
+  push:
+  pull_request:
+jobs:
+  proofs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install mathematical dependencies
+        run: python -m pip install -r requirements-proofs.txt
+      - name: Run exact proofs
+        run: python run_proofs.py
+      - name: Verify published summary arithmetic
+        run: python tests/check_reported_statistics.py
+      - name: Validate public repository metadata
+        run: python scripts/validate_public_artifact.py

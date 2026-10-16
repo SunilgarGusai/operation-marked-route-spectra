@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "width_domain": "positive integers",
+  "operations": {
+    "alpha": {
+      "cross_moment_gap": "0",
+      "two_hop_square_gap": "30",
+      "full_trace_gap": "30*z**4"
+    },
+    "beta": {
+      "cross_moment_gap": "30",
+      "two_hop_square_gap": "30",
+      "full_trace_gap": "30*z**3*(z + 2)"
+    }
+  },
+  "general_depth_test": {
+    "dag_nodes": 5,
+    "longest_route_length": 4,
+    "clone_widths_checked": [
+      2,
+      3
+    ],
+    "status": "PASS"
+  },
+  "alpha_perron_proof": "PASS: nonnegative irreducible component, rank-two entrywise positive difference",
+  "beta_perron_proof": {
+    "delta_a": "15*z*(z + 2)",
+    "delta_b": "2*z*(270*z**3 + 540*z**2 + 287*z + 1030)",
+    "delta_c": "49*z*(379*z + 590)",
+    "difference_delta_a_times_lower_bound_minus_delta_b": "z*(540*z**3 + 1080*z**2 + 161*z - 590)",
+    "status": "PASS: cubic sign at Perron Gram eigenvalue, for integers z>=1"
+  },
+  "representative_widths": [
+    1,
+    2,
+    3
+  ]
+}

@@ -1,0 +1,5 @@
+# AI-assisted research methods summary
+
+Substantive assistance from OpenAI ChatGPT occurred during candidate mathematical problem selection, exploration of spectral constructions and candidate proofs, development and audit of symbolic verification scripts, implementation of experimental-analysis code, literature screening, and drafting/revising prose. This repository includes outputs and deterministic checks but is **not** a complete transcript or complete version-by-version LLM usage archive.
+
+The October 2026 stages included GPT-6 assistance. Versions/tool configurations of earlier stages and exact historical prompts must be reconciled from the original research conversation history before the authors attest to full compliance with ELA's detailed policy. See https://journals.uwyo.edu/index.php/ela/announcement/view/45 . The article's AI-use disclosure must be approved by both human authors, who alone assume responsibility for correctness and originality. Editorial-specific prompt history may be delivered privately instead of posted in a public repository.

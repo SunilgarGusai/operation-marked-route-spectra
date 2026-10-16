@@ -1,7 +1,8 @@
-# Dataset and implementation provenance
+# Dataset and source provenance
 
-- NAS-Bench-101: Ying et al. (ICML 2019). Original record pool: 3,976 architectures; 3,359 previously inspected training/development records pooled for grouped cross-validation; 617 reserved.
-- NAS-Bench-201: Dong and Yang (ICLR 2020). Eligible original records: 15,040; 12,544 previously inspected training/development records pooled for grouped cross-validation; 2,496 reserved.
-- GRAF architecture feature definitions: Kadlecová et al. (ICML 2024), MIT-licensed source: https://github.com/gabikadlecova/GRAF . The adaptations are not presented as the authors' official end-to-end experiments.
+- NAS-Bench-101: Ying et al., ICML 2019. Local frozen record set contained 3,976 architecture records; the manuscript's grouped CV pooled 3,359 previously observed training/development records while 617 reserved records remained masked.
+- NAS-Bench-201: Dong and Yang, ICLR 2020. Local frozen usable cohort contained 15,040 architecture records; grouped CV pooled 12,544 previously observed training/development records and retained 2,496 reserved records.
+- GRAF: Kadlecová et al., ICML 2024; the adapted graph-feature implementation is *source-aligned*, not an official end-to-end reproduction. MIT notice retained.
+- `docs/SOURCE_SHA256.json` records frozen source fingerprints; original data and protected labels have **not** been redistributed.
 
-Frozen source SHA-256 values and historical protocols are supplied with the full research package. Data and checkpoint archives requiring third-party redistribution clearance are not included in the public artifact.
+For a future full independent refit, obtain benchmark archives directly from the authoritative providers and reconstruct all transforms, record-selection decisions and fixed partitions according to `docs/HISTORICAL_COMPUTATIONAL_PROTOCOL.md`. Do not infer that the present checkout includes all those prerequisites.

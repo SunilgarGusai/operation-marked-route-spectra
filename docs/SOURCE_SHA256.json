@@ -1,0 +1,7 @@
+{
+  "nb101_frozen_sha256": "1c7235f462405fd75a2db1290282bd4a78f2dcf6d5931e9d7a75a37f18cd7790",
+  "nb201_user_verified_cache_sha256": "7323dec8cc1213ddec819550bbe349b518b5f0d1013d3ac7016361ee27fae193",
+  "nb201_user_verified_source_sha256": "c82e70b5ffb0dba0f09d88ecc8df5a6d3ce8da8a99ad223285104f4537314033",
+  "source_pinning_basis": "verified user Phase 9C upload 2026-10-15; synthetic Phase 9C preparation cache explicitly rejected",
+  "holdout_policy": "NB101 617 masked, NB201 2496 masked"
+}

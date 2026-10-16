@@ -1,0 +1,190 @@
+{
+  "verification_protocol": "Exact symbolic identities and combinatorial isomorphism checks; no ML labels",
+  "python_version": "3.13.5",
+  "sympy_version": "1.14.0",
+  "networkx_version": "3.6.1",
+  "previous_v02": {
+    "status": "PASS",
+    "source_sha256": "38df4180afc9db6b46caa02d83c010e00e8e7ea68cc875b3c139359df341220c",
+    "original_v02_operations": {
+      "alpha": {
+        "cross_moment_gap": "0",
+        "two_hop_square_gap": "30",
+        "full_trace_gap": "30*z**4"
+      },
+      "beta": {
+        "cross_moment_gap": "30",
+        "two_hop_square_gap": "30",
+        "full_trace_gap": "30*z**3*(z + 2)"
+      }
+    },
+    "v02_general_depth_test": {
+      "dag_nodes": 5,
+      "longest_route_length": 4,
+      "clone_widths_checked": [
+        2,
+        3
+      ],
+      "status": "PASS"
+    }
+  },
+  "new_v03": {
+    "status": "PASS",
+    "second_witness": {
+      "alpha": {
+        "H_charpoly": "x**5*(x**2 - 2*z**2 - 2)",
+        "W_charpoly": "x**5*(x**2 - 41)",
+        "reduced_trace2_A": "2*(50*z**2 + 41)",
+        "reduced_trace2_B": "2*(61*z**2 + 41)",
+        "reduced_trace2_gap": "-22*z**2",
+        "clone_trace2_gap": "-22*s**4 for all positive integer s",
+        "co_moments": {
+          "b": 0,
+          "c": -22
+        }
+      },
+      "beta": {
+        "H_charpoly": "x**7 - 6*x**5*z**2 - 5*x**5 - 4*x**4*z + 4*x**3*z**4 - 4*x**3*z**3 + 13*x**3*z**2 + 7*x**3 + 4*x**2*z**3 - 2*x**2*z**2 + 8*x**2*z - 5*x*z**2 - 3*x - 4*z",
+        "W_charpoly": "x*(x - 5)*(x + 5)*(x**4 - 122*x**2 + 2700)",
+        "reduced_trace2_A": "2*(194*z**2 + 147)",
+        "reduced_trace2_B": "2*(205*z**2 + 147)",
+        "reduced_trace2_gap": "-22*z**2",
+        "clone_trace2_gap": "-22*s**4 for all positive integer s",
+        "co_moments": {
+          "b": 0,
+          "c": -22
+        }
+      }
+    },
+    "support_diameter": 3,
+    "support_isomorphism": {
+      "0": 1,
+      "1": 0,
+      "2": 2,
+      "3": 5,
+      "4": 4,
+      "5": 3,
+      "6": 6
+    },
+    "ecc_A": [
+      2,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ecc_B": [
+      3,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "source_arc_lists": {
+      "A": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "B": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    "marked_alpha": {
+      "A": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "B": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "alpha_all_width_radius_proof": {
+      "q_at_radius_squared_A": "-50*z**2*(11*z**2 + 9)",
+      "strict_for_all_positive_integer_widths": true,
+      "orientation": "rho(K_alpha,T_B,s)>rho(K_alpha,T_A,s)"
+    },
+    "direct_clone_verification": {
+      "widths": [
+        2,
+        3
+      ],
+      "operations": [
+        "alpha",
+        "beta"
+      ],
+      "status": "PASS"
+    }
+  },
+  "general_width_rigidity": "PASS: by collecting coefficients of s^(k+m), with tr(F_A,1^2)=tr(F_B,1^2), the difference is s^3 times a polynomial of degree <=2*ell-3; fundamental theorem of algebra bounds positive exceptional widths",
+  "status": "PASS"
+}

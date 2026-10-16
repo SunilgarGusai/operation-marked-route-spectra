@@ -1,0 +1,9 @@
+name: operation-marked-route-spectra
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - sympy=1.14
+  - numpy>=1.26,<3
+  - networkx>=3.2,<4
+  - pip
