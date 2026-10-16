@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/SunilgarGusai/operation-marked-route-spectra/actions/workflows/repository-validation.yml"><img src="https://github.com/SunilgarGusai/operation-marked-route-spectra/actions/workflows/repository-validation.yml/badge.svg" alt="Repository validation"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Original code MIT licence"/></a>
   <a href="CITATION.cff"><img src="https://img.shields.io/badge/citation-CITATION.cff-blue.svg" alt="Citation metadata"/></a>
   <a href="QUICKSTART.md"><img src="https://img.shields.io/badge/verification-4%20exact%20suites-blue.svg" alt="Exact verification suites"/></a>
   <img src="https://img.shields.io/badge/benchmarks-exploratory-amber.svg" alt="Exploratory benchmarks"/>
@@ -70,7 +71,7 @@ The operation-restricted graph features adapt methods/code from [Kadlecová et a
 
 Substantive AI assistance in mathematical exploration, symbolic code, experiment software and drafting is documented in [`docs/AI_METHODS_SUMMARY.md`](docs/AI_METHODS_SUMMARY.md). Both human authors retain responsibility for the manuscript's validity and originality.
 
-**Licensing:** public access is not equivalent to an open-source license; original-code licensing awaits explicit joint-author approval. See [`docs/LICENSING_STATUS.md`](docs/LICENSING_STATUS.md).
+**Licensing:** original code and documentation are now released under the [MIT License](LICENSE) on the corresponding author’s authorization. GRAF-origin code retains the upstream [MIT notice](docs/GRAF_UPSTREAM_MIT_LICENSE.txt). External benchmark data are not redistributed; see [`docs/LICENSING_STATUS.md`](docs/LICENSING_STATUS.md).
 
 ## Authors and citation
 

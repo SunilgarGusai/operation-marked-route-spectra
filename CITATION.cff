@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the associated paper and this public verification repository, as appropriate."
 title: "Operation-Marked Eccentricity-Weighted Route Spectra of Feedforward Architecture Graphs"
 type: software
+license: MIT
 authors:
   - family-names: Gusai
     given-names: Sunilgar L.

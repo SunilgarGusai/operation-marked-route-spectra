@@ -1,13 +1,15 @@
-# Publication and journal-submission gate
+# Repository verification and submission boundaries
 
-This repository is public for research transparency. It does not imply that the associated manuscript has been submitted, accepted, or approved by both authors. A software use license for project-original code is not yet granted.
+This public mathematical reproducibility companion is MIT-licensed for project-original code and documentation. Publication in GitHub **does not** establish that its associated article has been submitted or accepted.
 
-- [x] Source verification and mathematical certification tests collected and independently run.
-- [x] Official benchmark data and reserved holdout labels excluded.
-- [x] Upstream GRAF MIT licensing notice retained.
-- [ ] Obtain human-author proof and originality sign-off.
-- [ ] Reconcile historical AI-assisted research documentation required by ELA.
-- [ ] Agree on an original-code license with both authors; do not infer MIT automatically.
-- [ ] Arrange full benchmark regeneration inputs where redistribution permits.
-- [ ] Freeze a verified commit, then create a release tag (no tag is claimed yet).
-- [ ] Update the article availability statement to cite that fixed commit/tag.
+- [x] Four exact mathematical verification suites collected and independently checked.
+- [x] Numerical-summary consistency checker available; full 288-fit reruns remain outside the self-contained public artifact.
+- [x] Raw datasets and reserved holdout labels excluded.
+- [x] GRAF upstream MIT notice preserved.
+- [x] Original-code MIT license applied pursuant to corresponding-author authorization (16 October 2026).
+- [x] Scientific claim limitations and input availability described.
+- [x] Commit-specific source can be cited as an immutable research snapshot.
+- [ ] GitHub release tag and binary release attachments: optional; not created by this repository metadata update.
+- [ ] Full historical AI prompt-to-content reconciliation; available examples and limitations are documented in AI_METHODS_SUMMARY.md.
+- [ ] Human authors must ensure the accuracy of all ELA submission declarations and exclusive-submission statements.
+- [ ] Full benchmark training-label caches and checkpoints are not released and cannot be assumed regenerable from this checkout alone.

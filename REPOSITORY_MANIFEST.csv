@@ -5,6 +5,7 @@ CITATION.cff,root,Reviewer-facing mathematical reproducibility material
 QUICKSTART.md,root,Reviewer-facing mathematical reproducibility material
 README.md,root,Reviewer-facing mathematical reproducibility material
 REPOSITORY_MANIFEST.csv,root,Reviewer-facing mathematical reproducibility material
+LICENSE,root,MIT license for project-original code and documentation
 RUN_PROOFS_WINDOWS.cmd,root,Reviewer-facing mathematical reproducibility material
 benchmarks/campaign.py,benchmarks,Reviewer-facing mathematical reproducibility material
 benchmarks/datasets.py,benchmarks,Reviewer-facing mathematical reproducibility material

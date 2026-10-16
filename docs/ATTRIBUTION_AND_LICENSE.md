@@ -1,7 +1,8 @@
-# Upstream attribution, source ownership, and release licensing
+# Upstream attribution, ownership and licensing
 
-- GRAF features are derived/adapted from methods published by Kadlecová et al., *Surprisingly Strong Performance Prediction with Neural Graph Features*, ICML 2024. Upstream repository: https://github.com/gabikadlecova/GRAF (reported MIT license). The local `graf_nb101.py` is a source-aligned adaptation, not an official GRAF implementation. Preserve required MIT notices if and where upstream code is copied; The applicable upstream MIT notice is preserved at `docs/GRAF_UPSTREAM_MIT_LICENSE.txt`; the adapted code is labelled source-aligned rather than an official GRAF implementation.
-- NASGraph, DAG-S, and their full algorithms are **not** reproduced by the compact graph descriptors in this repository.
-- The NAS-Bench-101/201 benchmark sources are third-party materials; this release does not redistribute their original raw data files.
-- The generic linear-algebra and graph-replication components are standard methods, not claimed original.
-- **Project code license pending:** choose a license only after both authors' copyright approval and verification of upstream obligations. This public research companion does not include an original-code `LICENSE` because the authors have not yet selected a reuse license. Public visibility is not an open-source license. The relevant reference is https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository .
+- Original project source and documentation are distributed under the repository's [MIT License](../LICENSE), as authorized by the corresponding author on 16 October 2026. Copyright and permission representations are limited to rights held by the licensors.
+- The GRAF operation-restricted baseline implementation is source-aligned to Kadlecová et al., *Surprisingly Strong Performance Prediction with Neural Graph Features*, ICML 2024, https://github.com/gabikadlecova/GRAF. GRAF is MIT-licensed; its original copyright and terms are preserved in [GRAF_UPSTREAM_MIT_LICENSE.txt](GRAF_UPSTREAM_MIT_LICENSE.txt). Our adaptation is **not** an official GRAF implementation.
+- NASGraph and DAG-S end-to-end algorithms are not reproduced in this public companion.
+- NAS-Bench-101 and NAS-Bench-201 data are third-party materials. Raw archives, restricted records and reserved holdout results are not redistributed.
+- Uniform graph replication, standard spectral switching theory, and the original VELE definition are acknowledged as existing methods, not rebranded inventions.
+- The manuscript has its own publication and AI-disclosure obligations. This software license does not determine the journal's license.

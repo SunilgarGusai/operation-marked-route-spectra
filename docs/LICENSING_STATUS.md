@@ -1,15 +1,17 @@
 # Licensing status and third-party rights
 
-The repository is publicly viewable, but **newly authored project code has not yet been licensed for general reuse**. Any license must be approved by both authors. No MIT license is implied merely because other repositories of these authors use MIT.
+## Project-original materials
 
-## Prior software
+Effective 16 October 2026, the original code and project-authored documentation in this repository are distributed under the [MIT License](../LICENSE), pursuant to authorization supplied by the corresponding author. Copyright notices do not imply that all named authors independently completed a separate review inside this repository. The license grant covers only rights the licensors are authorized to grant.
 
-The NAS-GRAF source-aligned features adapt methods/code from Gabi Kadlecová's [MIT-licensed GRAF repository](https://github.com/gabikadlecova/GRAF). Its MIT text, including the 2024 upstream copyright notice, is reproduced unmodified in `GRAF_UPSTREAM_MIT_LICENSE.txt`.
+## Adapted third-party software
 
-## Datasets
+Some source-aligned GRAF features are based on the MIT-licensed implementation by Gabi Kadlecová and contributors. Preserve the original upstream notice at [GRAF_UPSTREAM_MIT_LICENSE.txt](GRAF_UPSTREAM_MIT_LICENSE.txt); source-derived code is not represented as wholly original or as an official GRAF reproduction.
 
-NAS-Bench-101 and NAS-Bench-201 are independent third-party datasets governed by their upstream access/distribution terms. The repository deliberately does not redistribute original benchmark archives, unmasked holdout outcomes, or original raw records.
+## External data
 
-## Paper
+NAS-Bench-101 and NAS-Bench-201 remain third-party benchmark datasets, with upstream access and redistribution restrictions. This repository contains no unmasked reserved holdout labels, original raw benchmark archives, or original local feature caches. MIT licensing of our code **does not license external datasets or third-party content beyond their existing terms**.
 
-The manuscript may be subject to publisher-specific preprint policies and joint author approval. It is not distributed in this repository at present.
+## Manuscript and publication
+
+The associated article is not yet represented as accepted or published. Source availability and journal publication rights are independent from the software license; no manuscript copyright assignment is asserted by this repository.
