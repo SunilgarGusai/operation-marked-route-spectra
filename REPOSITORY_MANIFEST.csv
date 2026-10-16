@@ -48,3 +48,8 @@ verification/verify_balanced_transfer_v05.py,verification,Reviewer-facing mathem
 verification/verify_extension_v02.py,verification,Reviewer-facing mathematical reproducibility material
 verification/verify_joint_pencils_v04.py,verification,Reviewer-facing mathematical reproducibility material
 verification/verify_v03.py,verification,Reviewer-facing mathematical reproducibility material
+docs/assets/spectral-mechanism.svg,docs,Vector visual and research explanation
+docs/assets/evidence-layers.svg,docs,Vector visual and research explanation
+docs/THEOREM_MAP.md,docs,Reviewer-facing scientific documentation
+docs/VISUAL_GUIDE.md,docs,Reviewer-facing scientific documentation
+docs/GITHUB_ABOUT_METADATA.md,docs,Reviewer-facing scientific documentation

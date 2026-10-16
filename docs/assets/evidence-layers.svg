@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="270" viewBox="0 0 1180 270" role="img" aria-labelledby="title desc">
+<title id="title">Three distinct evidence layers</title>
+<desc id="desc">Exact proof certificates are fully reproducible; reported exploratory benchmark arithmetic is checkable; full benchmark retraining is not self-contained in the public repository. No predictive superiority is claimed.</desc>
+<rect width="1180" height="270" rx="18" fill="#f8fbfd"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="36" y="38" font-weight="700" font-size="23" fill="#19324b">Evidence, without overclaiming</text><text x="36" y="64" font-size="14" fill="#526d7f">Different forms of verification support different conclusions.</text></g>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="34" y="90" width="353" height="147" rx="13" fill="#e8f6f1" stroke="#58ac94" stroke-width="1.5"/>
+<text x="56" y="121" font-weight="700" font-size="16" fill="#145d51">01  Exact mathematical certificates</text>
+<text x="56" y="151" font-size="14" fill="#244a42">4 symbolic verification suites</text><text x="56" y="174" font-size="14" fill="#244a42">Characteristic-polynomial identities</text>
+<text x="56" y="208" font-weight="700" font-size="14" fill="#145d51">Reproducible from this checkout</text>
+<rect x="414" y="90" width="353" height="147" rx="13" fill="#eaf1fa" stroke="#8aadd4" stroke-width="1.5"/>
+<text x="436" y="121" font-weight="700" font-size="16" fill="#204d77">02  Exploratory NAS summaries</text>
+<text x="436" y="151" font-size="14" fill="#31526c">288 grouped-CV fits reported</text><text x="436" y="174" font-size="14" fill="#31526c">Summary arithmetic is checkable</text>
+<text x="436" y="208" font-weight="700" font-size="14" fill="#204d77">No significant added-value claim</text>
+<rect x="794" y="90" width="353" height="147" rx="13" fill="#fff6e7" stroke="#d9ae61" stroke-width="1.5"/>
+<text x="816" y="121" font-weight="700" font-size="16" fill="#855b1e">03  Full benchmark refitting</text>
+<text x="816" y="151" font-size="14" fill="#755f45">Source data and caches not supplied</text><text x="816" y="174" font-size="14" fill="#755f45">Restricted holdouts remain unopened</text>
+<text x="816" y="208" font-weight="700" font-size="14" fill="#855b1e">Not self-contained in public repo</text>
+</g>
+</svg>

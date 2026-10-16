@@ -1,5 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Operation-marked route spectra on layered directed graphs">
-<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0f2341"/><stop offset="1" stop-color="#1b4665"/></linearGradient><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#a9d9d6"/></marker></defs>
-<rect width="1200" height="270" rx="16" fill="url(#bg)"/>
-<g font-family="Arial,sans-serif" fill="#f5faff"><text x="60" y="100" font-size="44" font-weight="bold">Operation-Marked Route Spectra</text><text x="62" y="145" font-size="23">Exact graph-spectral constructions and reproducible verification</text><text x="62" y="193" font-size="17" fill="#b5d3e5">Mathematical certificates · Two DAG families · Group-aware benchmark evidence</text></g>
-<g stroke="#a9d9d6" stroke-width="3" marker-end="url(#arrow)" fill="none"><path d="M850 69 L950 55"/><path d="M850 69 L950 130" stroke-dasharray="8 7"/><path d="M850 169 L950 130"/><path d="M950 55 L1055 58" stroke-dasharray="8 7"/><path d="M950 130 L1055 188"/><path d="M850 169 L1055 188" stroke-dasharray="8 7"/></g><g fill="#f0faf9" stroke="#a9d9d6" stroke-width="2"><circle cx="850" cy="69" r="13"/><circle cx="850" cy="169" r="13"/><circle cx="950" cy="55" r="13"/><circle cx="950" cy="130" r="13"/><circle cx="1055" cy="58" r="13"/><circle cx="1055" cy="188" r="13"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="380" viewBox="0 0 1400 380" role="img" aria-labelledby="ttl desc">
+<title id="ttl">Operation-marked eccentricity-weighted route spectra</title>
+<desc id="desc">Deep-blue scientific banner with title, two-colour schematic of a layered directed acyclic graph, and a distinction between ordinary routes and eccentricity-weighted routes. Diagram is illustrative, not an exact witness.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1428"/><stop offset=".54" stop-color="#172b46"/><stop offset="1" stop-color="#193f54"/></linearGradient>
+<linearGradient id="accent" x1="0" x2="1"><stop stop-color="#56ddd4"/><stop offset="1" stop-color="#a3edda"/></linearGradient>
+<marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#5de2d6"/></marker>
+<marker id="b" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#bdacf7"/></marker>
+<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0 H0 V32" fill="none" stroke="#9db7c8" opacity=".08"/></pattern>
+<radialGradient id="halo"><stop stop-color="#3ce4ca" stop-opacity=".23"/><stop offset="1" stop-color="#3ce4ca" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1400" height="380" rx="20" fill="url(#bg)"/><rect width="1400" height="380" rx="20" fill="url(#g)"/>
+<ellipse cx="1140" cy="200" rx="275" ry="175" fill="url(#halo)"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="66" y="48" width="367" height="30" rx="15" fill="#274d63" stroke="#49738a"/>
+<text x="85" y="68" font-size="13" fill="#a4f3e4" font-weight="700" letter-spacing="1.5">SPECTRAL GRAPH THEORY  /  EXACT PROOFS</text>
+<text x="65" y="143" font-size="47" font-weight="700" fill="#fff">Operation-marked</text>
+<text x="65" y="199" font-size="47" font-weight="700" fill="#fff">route spectra</text>
+<rect x="66" y="220" width="370" height="4" rx="2" fill="url(#accent)"/>
+<text x="65" y="261" font-size="22" fill="#e2f5f4">Eccentricity-weighted spectral separation</text>
+<text x="65" y="299" font-size="16" fill="#b4d0dd">Two infinite DAG families  ·  Matrix-pencil identities</text>
+<text x="65" y="328" font-size="15" fill="#b4d0dd">Independent symbolic certificates and cautious NAS evidence</text>
+</g>
+<g fill="none" stroke-width="4" stroke-linecap="round">
+<path d="M1012 105 L1122 70" stroke="#5de2d6" marker-end="url(#a)"/>
+<path d="M1012 105 L1122 182" stroke="#bdacf7" stroke-dasharray="8 8" marker-end="url(#b)"/>
+<path d="M1012 250 L1122 182" stroke="#5de2d6" marker-end="url(#a)"/>
+<path d="M1012 250 L1122 302" stroke="#bdacf7" stroke-dasharray="8 8" marker-end="url(#b)"/>
+<path d="M1150 70 L1264 135" stroke="#bdacf7" stroke-dasharray="8 8" marker-end="url(#b)"/>
+<path d="M1150 182 L1264 135" stroke="#5de2d6" marker-end="url(#a)"/>
+<path d="M1150 182 L1264 266" stroke="#bdacf7" stroke-dasharray="8 8" marker-end="url(#b)"/>
+<path d="M1150 302 L1264 266" stroke="#5de2d6" marker-end="url(#a)"/>
+</g>
+<g fill="#122840" stroke="#d0f8f5" stroke-width="3">
+<circle cx="994" cy="101" r="16"/><circle cx="994" cy="249" r="16"/>
+<circle cx="1138" cy="70" r="16"/><circle cx="1138" cy="182" r="16"/><circle cx="1138" cy="302" r="16"/>
+<circle cx="1280" cy="134" r="16"/><circle cx="1280" cy="266" r="16"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#effdfa" text-anchor="middle"><text x="994" y="105">0</text><text x="994" y="253">1</text><text x="1138" y="74">2</text><text x="1138" y="186">3</text><text x="1138" y="306">4</text><text x="1280" y="138">5</text><text x="1280" y="270">6</text></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#d6ebf0">
+<path d="M912 345 H955" stroke="#5de2d6" stroke-width="4"/><text x="964" y="350">operation α</text>
+<path d="M1092 345 H1135" stroke="#bdacf7" stroke-width="4" stroke-dasharray="8 7"/><text x="1144" y="350">operation β</text>
+<text x="1260" y="348" fill="#a6c3cb">schematic</text>
+</g>
+</svg>

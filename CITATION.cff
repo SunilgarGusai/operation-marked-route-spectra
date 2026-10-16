@@ -12,3 +12,11 @@ authors:
     orcid: "https://orcid.org/0000-0003-1833-4730"
 repository-code: "https://github.com/SunilgarGusai/operation-marked-route-spectra"
 abstract: "Exact symbolic verification code and exploratory summary results; journal submission pending."
+
+keywords:
+  - spectral graph theory
+  - cospectral graphs
+  - operation-marked routes
+  - feedforward directed acyclic graphs
+  - eccentricity-weighted spectra
+  - symbolic verification
