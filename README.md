@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/repository-banner.svg" width="100%" alt="Operation-marked route spectra: exact symbolic graph spectral verification"/>
+  <img src="docs/assets/repository-banner.gif" width="100%" alt="Operation-marked route spectra: exact symbolic graph spectral verification"/>
 </p>
 
 <h1 align="center">Operation-Marked Eccentricity-Weighted Route Spectra</h1>
