@@ -53,3 +53,5 @@ docs/assets/evidence-layers.svg,docs,Vector visual and research explanation
 docs/THEOREM_MAP.md,docs,Reviewer-facing scientific documentation
 docs/VISUAL_GUIDE.md,docs,Reviewer-facing scientific documentation
 docs/GITHUB_ABOUT_METADATA.md,docs,Reviewer-facing scientific documentation
+.github/workflows/render-repository-banner.yml,.github,Automated export of the research-banner artwork
+docs/assets/repository-banner.gif,docs,Animated scientific cover derived from SVG source
